@@ -1,8 +1,8 @@
 import "./member.css";
-import Developers from "./data";
+import Developers from "./Data";
 import { useState } from "react";
 
-import Modal from './modal';
+import Modal from './Modal';
 
 const Member = () => {
 
