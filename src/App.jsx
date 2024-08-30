@@ -1,5 +1,5 @@
 import './App.css';
-import Member from "./components/member";
+import Member from "./components/Member";
 
 function App() {
 
