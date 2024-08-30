@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import './member.css';
 
-const Modal = ({ show, onClose, children }) => {
+const Modals = ({ show, onClose, children }) => {
     if (!show) {
         return null;
     }
@@ -16,10 +16,10 @@ const Modal = ({ show, onClose, children }) => {
     );
 };
 
-Modal.propTypes = {
+Modals.propTypes = {
     show: PropTypes.bool.isRequired,
     onClose: PropTypes.func.isRequired,
     children: PropTypes.node.isRequired,
 };
 
-export default Modal;
+export default Modals;

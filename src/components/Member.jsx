@@ -1,8 +1,8 @@
 import "./member.css";
-import Developers from "./data";
+import Developers from "./Data";
 import { useState } from "react";
 
-import Modal from "./modal";
+import Modals from "./Modal";
 
 const Member = () => {
 
@@ -50,14 +50,14 @@ const Member = () => {
     
         <div className="App">
             <button onClick={openModal} className="add-new-post">Add New Post</button>
-            <Modal show={showModal} onClose={closeModal}>
+            <Modals show={showModal} onClose={closeModal}>
                 <div className="form">
                     <input type="text" placeholder="Post Title" value={title} onChange={handleName}/>
                     <input type="text" placeholder="Post description" value={desc} onChange={handleSkill}/>
                     <input type="text" placeholder="Post photo" value={photo} onChange={handlePhoto}/>
                     <button onClick={handleAddMember}>Post</button>
                 </div>
-            </Modal>
+            </Modals>
         </div>
         
 <hr />
