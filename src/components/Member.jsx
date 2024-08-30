@@ -2,7 +2,7 @@ import "./member.css";
 import Developers from "./Data";
 import { useState } from "react";
 
-import Modal from './Modal';
+import Modal from "./Modal";
 
 const Member = () => {
 
